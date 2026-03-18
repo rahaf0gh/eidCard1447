@@ -33,12 +33,12 @@ const cards = [
 ];
 
 const cardTextConfig: Record<number, { x: number; y: number; color: string; fontSize: number }> = {
-  1: { x: 0.5, y: 0.80, color: "#e4afaf", fontSize: 34 },
-  2: { x: 0.5, y: 0.74, color: "#692527", fontSize: 34 },
-  3: { x: 0.5, y: 0.62, color: "#692527", fontSize: 34 },
-  4: { x: 0.5, y: 0.80, color: "#d25f26", fontSize: 34 },
-  5: { x: 0.5, y: 0.78, color: "#692527", fontSize: 34 },
-  6: { x: 0.5, y: 0.60, color: "#819aa1", fontSize: 34 },
+  1: { x: 0.5, y: 0.80, color: "#e4afaf", fontSize: 38 },
+  2: { x: 0.5, y: 0.74, color: "#692527", fontSize: 38 },
+  3: { x: 0.5, y: 0.62, color: "#692527", fontSize: 38 },
+  4: { x: 0.5, y: 0.80, color: "#d25f26", fontSize: 38 },
+  5: { x: 0.5, y: 0.78, color: "#692527", fontSize: 38 },
+  6: { x: 0.5, y: 0.60, color: "#819aa1", fontSize: 38 },
 };
 
 function formatCount(n: number): string {
